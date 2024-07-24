@@ -12,4 +12,4 @@ The script generates two versions of each password:
 
 Passwords are saved to **dictionary.txt**, with the goal of creating a comprehensive password list for security testing.
 
-The script is designed to generate only 1 million passwords. This limitation helps prevent overwhelming the your device, in addition to the implementation of parallel processing. Note that it is only intended for testing purposes.
+The script is designed to generate only 1 million passwords. This limitation helps prevent overwhelming your device, in addition to the implementation of parallel processing. Note that it is only intended for testing purposes.
