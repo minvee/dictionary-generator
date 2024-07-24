@@ -12,4 +12,4 @@ The script generates two versions of each password:
 
 Passwords are saved to **dictionary.txt**, with the goal of creating a comprehensive password list for security testing.
 
-The script generates approximately 14 million passwords. This estimate aligns with the size of **rockyou.txt**, a widely used password list in the cybersecurity and penetration testing community, which contains a similar number of entries across its various versions.
+The script is designed to generate only 1 million passwords. This limitation helps prevent overwhelming the your device, in addition to the implementation of parallel processing. Note that it is only intended for testing purposes.
