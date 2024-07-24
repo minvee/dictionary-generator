@@ -49,9 +49,10 @@ def main():
     words = ["support", "team", "password", "comply", "corporate", "policy", "privileged", "accounts"]
 
     symbols = "@$!%*?&"
-    
+
     with open("dictionary.txt", "w") as file:
-        for i in range(10000000):
+        # Number of passwords in rockyou.txt is approximately 14,344,392
+        for i in range(14350000):
             password = generate_password(words, symbols)
             file.write(f"{password}\n")
 
