@@ -1,3 +1,15 @@
-# juice_shop_password_generator
+# Juice Shop Dictionary Generator
+This project is a password generation script written in Python - specifically for Juice Shop: Login Support Team challenge. After finding the password requirements for support team and also the hidden message, the information gathered can be used to brute force the password to the KeePass file. This Python script creates passwords by combining a fixed set of words with random characters, ensuring each password meets specific security requirements.
 
-So basically this scripts generate a dictionary (list of passwords) that Hashcat (or john) can use to crack the *incident-support.kdbx* KeePass database.
+The generated passwords are:
+- **Length**: Between 12 and 30 characters.
+- **Content**: Includes at least one lowercase letter, one uppercase letter, one digit, and one special character (@$!%*?&).
+- **Word Placement**: Each password contains one of a predefined set of words, which remains intact and can be positioned anywhere in the password.
+
+The script generates two versions of each password:
+- With the selected word capitalized.
+- With the selected word in lowercase.
+
+Passwords are saved to **dictionary.txt**, with the goal of creating a comprehensive password list for security testing.
+
+The script generates approximately 14 million passwords. This estimate aligns with the size of **rockyou.txt**, a widely used password list in the cybersecurity and penetration testing community, which contains a similar number of entries across its various versions.
