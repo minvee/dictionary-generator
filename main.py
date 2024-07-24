@@ -53,7 +53,7 @@ def main():
     symbols = "@$!%*?&"
     
     # For testing purposes, I will only generate 1 million passwords
-    num_passwords = 1000000
+    num_passwords = 2200000
 
     file_path = "dictionary.txt"
 
