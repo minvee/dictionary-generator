@@ -53,8 +53,8 @@ def main():
     symbols = "@$!%*?&"
     
     # Number of passwords in rockyou.txt is approximately 14,344,392
-    num_passwords = 100000
-
+    num_passwords = 14,350,000
+    
     file_path = "dictionary.txt"
 
     generate_and_save_passwords(words, symbols, num_passwords, file_path)
