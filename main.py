@@ -52,8 +52,8 @@ def main():
     words = ["support", "team", "password", "comply", "corporate", "policy", "privileged", "accounts"]
     symbols = "@$!%*?&"
     
-    # Number of passwords in rockyou.txt is approximately 14,344,392
-    num_passwords = 14350000
+    # For testing purposes, I will only generate 1 million passwords
+    num_passwords = 1000000
 
     file_path = "dictionary.txt"
 
